@@ -9,8 +9,16 @@ html {
   box-sizing: inherit;
 }
 
+html,
 body {
-  min-height: 100vh;
   margin: 0;
   padding: 0;
+  font-size: 15px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
