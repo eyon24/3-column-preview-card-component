@@ -1,3 +1,5 @@
+@import "variables";
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -18,6 +20,7 @@ body {
 
 body {
   min-height: 100vh;
+  background-color: $very-light-gray;
   display: flex;
   justify-content: center;
   align-items: center;
