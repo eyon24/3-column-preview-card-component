@@ -1,0 +1,43 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border-radius: 2rem;
+  margin: 5rem 1rem;
+}
+
+.container-sedans,
+.container-suvs,
+.container-luxury {
+  padding: 3rem;
+}
+
+.container-sedans {
+  border-radius: 1rem 1rem 0 0;
+  background-color: #e38826;
+}
+
+.container-suvs {
+  background-color: #006970;
+}
+
+.container-luxury {
+  background-color: #004241;
+  border-radius: 0 0 1rem 1rem;
+}

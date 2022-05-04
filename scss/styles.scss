@@ -1,0 +1,27 @@
+@import "globals";
+@import "variables";
+
+.container {
+  border-radius: 2rem;
+  margin: 5rem 1rem;
+}
+
+.container-sedans,
+.container-suvs,
+.container-luxury {
+  padding: 3rem;
+}
+
+.container-sedans {
+  border-radius: 1rem 1rem 0 0;
+  background-color: $bright-orange;
+}
+
+.container-suvs {
+  background-color: $dark-cyan;
+}
+
+.container-luxury {
+  background-color: $very-dark-cyan;
+  border-radius: 0 0 1rem 1rem;
+}
